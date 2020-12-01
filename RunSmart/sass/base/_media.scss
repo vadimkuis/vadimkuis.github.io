@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 767px){
+    .header{
+        &__logo{
+        img{
+            width: 70%;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    
+}
