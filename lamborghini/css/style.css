@@ -547,6 +547,7 @@ body{
   }
 }
 @media(max-width: 669px){
+  .evo-white__inner::after,
   .evo-white__inner::before{
     display: none;
   }
