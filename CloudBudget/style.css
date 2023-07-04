@@ -73,6 +73,7 @@ nav a:last-child {
   text-transform: uppercase;
   color: white;
   background-color: transparent;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1155px) {
@@ -125,6 +126,7 @@ nav a:last-child {
   color: #ed4c5c;
   font-weight: 600;
   padding: 17px 52px;
+   cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
@@ -455,6 +457,7 @@ nav a:last-child {
   text-transform: uppercase;
   padding: 17px 34px;
   margin-top: 3px;
+   cursor: pointer;
 }
 
 .contact__info {
