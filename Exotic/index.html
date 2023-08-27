@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="slick/slick.css"/>
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/adaptive.css"/>
+    <title>Exotic fruits</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img src="images/logo.png" alt="" class="logo"/>
+            </div>
+            <nav class="menu header__menu">
+                <button class="menu__btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu__items header__menu-items">
+                    <div class="menu__close">
+                        <img class="menu__close-btn" src="images/close.png" alt=""/>
+                    </div>
+                    <p class="menu__title">Mеню</p>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#sale">Товар дня</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#why">Почему мы</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#fruits">Наши фрукты</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#order"> Как заказать</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__item-link" href="#reviews">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="top__content">
+            <div class="top__info">
+                <h1 class="top__title">Только свежие экзотические фрукты в нашем магазине</h1>
+                <p class="top__text">Вкусные и необычные фрукты, которые вы не найдете в магазине!</p>
+                <div class="top__actions">
+                    <a href="#fruits" class="btn">Посмотреть фрукты</a>
+                </div>
+            </div>
+            <div class="top__images">
+                <img class="top__img" src="images/ananas.png"/>
+            </div>
+        </div>
+
+        <div class="top__content-mobile">
+            <div class="top__info">
+                <h1 class="top__title">
+                    Только свежие <br/>экзотические <br/>
+                    фрукты в нашем <br/>магазине
+                </h1>
+                <div class="top__images">
+                    <img class="top__img-mobile" src="images/ananas-m.png"/>
+                </div>
+                <p class="top__text">
+                    Вкусные и необычные фрукты, которые вы не найдете <br/>
+                    в магазине!
+                </p>
+                <div class="top__actions">
+                    <a href="#fruits" class="btn">Посмотреть фрукты</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="about wow bounceInUp" id="about">
+    <div class="container">
+        <div class="about__content">
+            <div class="about__images">
+                <img src="images/about-bg.png" alt="" class="about__img"/>
+            </div>
+            <div class="about__info">
+                <div class="about__info-title">О нас</div>
+                <div class="about__info-descr">
+                    <p class="about__info-text">
+                        Наш магазин поможет вам почувствовать вкус местных фруктов из различных уголков
+                        нашей планеты. Благодаря <span>5 летнему опыту работы на рынке</span>, мы отлично
+                        наладили поставки самых лучших фруктов из самых далеких стран.
+                    </p>
+                    <p class="about__info-text">
+                        Поэтому вы сможете насладиться ими через совсем небольшое время после оформления
+                        заказа. Также все фрукты проходят <span>ручной отбор</span> , поэтому на своем столе
+                        вы увидите только качественные и свежие продукты.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="about__content-mobile">
+            <div class="about__info-title">О нас</div>
+            <div class="about__images">
+                <img src="images/about-bg-m.png" alt="" class="about__img"/>
+            </div>
+            <div class="about__info">
+                <div class="about__info-descr">
+                    <p class="about__info-text">
+                        Наш магазин поможет вам почувствовать вкус местных фруктов из различных уголков
+                        нашей планеты. Благодаря <span>5 летнему опыту работы на рынке</span>, мы отлично
+                        наладили поставки самых лучших фруктов из самых далеких стран.
+                    </p>
+                    <p class="about__info-text">
+                        Поэтому вы сможете насладиться ими через совсем небольшое время после оформления
+                        заказа. Также все фрукты проходят <span>ручной отбор</span> , поэтому на своем столе
+                        вы увидите только качественные и свежие продукты.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="sale" id="sale">
+    <div class="container">
+        <h2>Товар дня</h2>
+        <div class="sale__item">
+            <div class="sale__item-slider-nav">
+                <button class="sale__item-slider-nav-prev">
+                    <img src="images/slick-images/arrows/up.png" alt=""/>
+                </button>
+                <div class="sale__item-slider-nav-content">
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/1.png" alt="1"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/2.png" alt="2"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/3.png" alt="3"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/1.png" alt="1"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/2.png" alt="2"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/3.png" alt="3"/>
+                    </div>
+                </div>
+                <button class="sale__item-slider-nav-next">
+                    <img src="images/slick-images/arrows/down.png" alt=""/>
+                </button>
+            </div>
+            <div class="sale__item-slider main-slider">
+                <img src="images/sale-mango.png" alt="sale-mango"/>
+                <img src="images/sale-mango.png" alt="sale-mango"/>
+                <img src="images/sale-mango.png" alt="sale-mango"/>
+                <img src="images/sale-mango.png" alt="sale-mango"/>
+                <img src="images/sale-mango.png" alt="sale-mango"/>
+                <img src="images/sale-mango.png" alt="sale-mango"/>
+            </div>
+            <div class="sale-item-timer">
+                <p class="sale-item-timer-text">До конца акции осталось:</p>
+                <p class="sale-item-timer-time"><span id="hours">26</span>часов</p>
+                <p class="sale-item-timer-time"><span id="minutes">55</span>минут</p>
+                <p class="sale-item-timer-time"><span id="seconds">30</span>секунд</p>
+            </div>
+            <div class="sale-item-card">
+                <h2 class="sale-item-card-title">Манго</h2>
+                <p class="sale-item-card-desc">
+                    Предлагаем попробовать спелый и сочный манго по супер цене прямо из солнечного и
+                    далекого Вьетнама.
+                </p>
+                <div class="sale-item-card-price">
+                    <p><span>Цена, кг:</span> 65 руб.</p>
+                    <p class="sale-item-price-prev diagonal">78 руб</p>
+                </div>
+                <button class="buyButton products__desc-btn">Заказать</button>
+                <div class="sale-item-card-add">
+                    <img src="images/little-mango.png" alt="little-mango"/>
+                    <p>Сегодня этот манго купили уже <span>25 раз!</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sale__item-mobile">
+
+            <div class="sale__item-slider-mobile-container">
+                <div class="sale-item-timer-mobile">
+                    <p class="sale-item-timer-text">До конца акции осталось:</p>
+                    <p class="sale-item-timer-time"><span id="hours">26</span>часов</p>
+                    <p class="sale-item-timer-time"><span id="minutes">55</span>минут</p>
+                    <p class="sale-item-timer-time"><span id="seconds">30</span>секунд</p>
+                </div>
+                <div class="sale__item-slider-mobile main-slider">
+                    <img src="images/sale-mango.png" alt="sale-mango"/>
+                    <img src="images/sale-mango.png" alt="sale-mango"/>
+                    <img src="images/sale-mango.png" alt="sale-mango"/>
+                    <img src="images/sale-mango.png" alt="sale-mango"/>
+                    <img src="images/sale-mango.png" alt="sale-mango"/>
+                    <img src="images/sale-mango.png" alt="sale-mango"/>
+                </div>
+            </div>
+            <div class="sale__item-slider-nav-mobile">
+                <button class="sale__item-slider-nav-mobile-prev">
+                    <img src="images/slick-images/arrows/left.png" alt=""/>
+                </button>
+                <div class="sale__item-slider-nav-mobile-content">
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/1.png" alt="1"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/2.png" alt="2"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/3.png" alt="3"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/1.png" alt="1"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/2.png" alt="2"/>
+                    </div>
+                    <div class="sale__item-slider-nav-content-image">
+                        <img src="images/slick-images/3.png" alt="3"/>
+                    </div>
+                </div>
+                <button class="sale__item-slider-nav-mobile-next">
+                    <img src="images/slick-images/arrows/right.png" alt=""/>
+                </button>
+            </div>
+
+            <div class="sale-item-card">
+                <h2 class="sale-item-card-title">Манго</h2>
+                <p class="sale-item-card-desc">
+                    Предлагаем попробовать спелый и сочный манго по супер цене прямо из солнечного и
+                    далекого Вьетнама.
+                </p>
+                <div class="sale-item-card-price">
+                    <p><span>Цена, кг:</span> 65 руб.</p>
+                    <p class="sale-item-price-prev diagonal">78 руб</p>
+                </div>
+                <button class="buyButton products__desc-btn">Заказать</button>
+                <div class="sale-item-card-add">
+                    <img src="images/little-mango.png" alt="little-mango"/>
+                    <p>Сегодня этот манго купили уже <span>25 раз!</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why wow bounceInUp" id="why">
+    <div class="container">
+        <h2 class="why__title title">Почему мы</h2>
+        <div class="why__items">
+            <div class="why__item">
+                <div class="why__item-img">
+                    <img src="images/like.png" alt="" class="why__img"/>
+                </div>
+                <p class="why__text">
+                    За 5 лет работы на рынке мы не получили ни одного негативного отзыва от наших клиентов
+                </p>
+            </div>
+            <div class="why__item">
+                <div class="why__item-img">
+                    <img src="images/certificate.png" alt="" class="why__img"/>
+                </div>
+                <p class="why__text">
+                    На все позиции есть сертификат, подтверждающий свежесть и безопасность закупаемых
+                    фруктов
+                </p>
+            </div>
+            <div class="why__item">
+                <div class="why__item-img">
+                    <img src="images/dragon-fruit.png" alt="" class="why__img"/>
+                </div>
+                <p class="why__text">
+                    Работаем с поставщиками из самых далеких стран, поэтому редкие фрукты вы сможете
+                    попробовать только у нас
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fruits wow bounceInUp" id="fruits">
+    <div class="container">
+        <h2 class="fruits__title title">Наши фрукты</h2>
+        <div class="tabs">
+            <div class="tabs__btn">
+                <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">
+                    Все
+                </button>
+                <button class="tabs__btn-item" data-button="content-2">Самые редкие</button>
+                <button class="tabs__btn-item" data-button="content-3">Акции</button>
+                <button class="tabs__btn-item" data-button="content-4">Новинки</button>
+            </div>
+            <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                <div class="card">
+                    <img class="card__img" src="images/card-item1.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Манго, Вьетнам</h3>
+                        <p class="card__price">50 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item2.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Маракуйя, Таиланд</h3>
+                        <p class="card__price">45 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item3.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Кокос, ЮАР</h3>
+                        <p class="card__price">37 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item4.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Питахайя, Таиланд</h3>
+                        <p class="card__price">61 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item5.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Ананас, Таиланд</h3>
+                        <p class="card__price">48 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item6.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Папайя, Бразилия</h3>
+                        <p class="card__price">57 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+            </div>
+            <div class="tabs__content-item" id="content-2">
+                <div class="card">
+                    <img class="card__img" src="images/card-item4.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Питахайя, Таиланд</h3>
+                        <p class="card__price">61 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item5.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Ананас, Таиланд</h3>
+                        <p class="card__price">48 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item6.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Папайя, Бразилия</h3>
+                        <p class="card__price">57 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+            </div>
+            <div class="tabs__content-item" id="content-3">
+                <div class="card">
+                    <img class="card__img" src="images/card-item1.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Манго, Вьетнам</h3>
+                        <p class="card__price">50 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item3.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Кокос, ЮАР</h3>
+                        <p class="card__price">37 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item5.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Ананас, Таиланд</h3>
+                        <p class="card__price">48 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+            </div>
+            <div class="tabs__content-item" id="content-4">
+                <div class="card">
+                    <img class="card__img" src="images/card-item4.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Питахайя, Таиланд</h3>
+                        <p class="card__price">61 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+                <div class="card">
+                    <img class="card__img" src="images/card-item6.png" alt=""/>
+                    <div class="card__content">
+                        <h3 class="card__title">Папайя, Бразилия</h3>
+                        <p class="card__price">57 руб./кг</p>
+                    </div>
+                    <button class="card__link products__desc-btn">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="order wow bounceInUp" id="order">
+    <div class="container">
+        <h2 class="order__title title">Как заказать</h2>
+        <div class="order__content">
+            <div class="order__items">
+                <div class="order__item second-first">
+                    <p>Оформляете заказ на сайте</p>
+                </div>
+                <div class="order__item second-one">
+                    <p>Наши операторы свяжутся с вами для подтверждения заказа</p>
+                </div>
+                <div class="order__item second-two">
+                    <p>Курьер привозит заказ и вы его оплачиваете при получении</p>
+                </div>
+                <div class="order__item second-three">
+                    <p>Мы собираем ваш заказ и отправляем его курьеру</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="reviews wow bounceInUp" id="reviews">
+    <div class="container">
+        <h2 class="reviews__title title">Отзывы</h2>
+        <div class="reviews__items">
+            <div class="reviews__item">
+                <div class="reviews__container">
+                    <div class="reviews__item-box">
+                        <div class="reviews__item-title">
+                            <img src="images/reviews-1.png" alt="" class="reviews__img"/>
+                            <div class="reviews__name">Анастасия</div>
+                        </div>
+                        <p class="reviews__text">
+                            Не первый раз делаю заказ в этом магазине, всегда остаюсь довольна качеством редкий
+                            фруктов, которые реально не встретишь в магазине.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__container">
+                    <div class="reviews__item-box">
+                        <div class="reviews__item-title">
+                            <img src="images/reviews-2.png" alt="" class="reviews__img"/>
+                            <div class="reviews__name">Александр</div>
+                        </div>
+                        <p class="reviews__text">
+                            Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :)
+                            Спасибо магазину за вкусные и полезные фрукты!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__container">
+                    <div class="reviews__item-box">
+                        <div class="reviews__item-title">
+                            <img src="images/reviews-1.png" alt="" class="reviews__img"/>
+                            <div class="reviews__name">Анастасия</div>
+                        </div>
+                        <p class="reviews__text">
+                            Не первый раз делаю заказ в этом магазине, всегда остаюсь довольна качеством редкий
+                            фруктов, которые реально не встретишь в магазине.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews__item">
+                <div class="reviews__container">
+                    <div class="reviews__item-box">
+                        <div class="reviews__item-title">
+                            <img src="images/reviews-2.png" alt="" class="reviews__img"/>
+                            <div class="reviews__name">Александр</div>
+                        </div>
+                        <p class="reviews__text">
+                            Отличный магазин, дети всегда радуются, когда приходит курьер с большим пакетом :)
+                            Спасибо магазину за вкусные и полезные фрукты!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="questions wow bounceInUp">
+    <div class="container">
+        <h2 class="questions__title title">Часто задаваемые вопросы</h2>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">Сколько ждать доставку заказа после оформления?</div>
+                <div class="accordion-text">
+                    <p>
+                        В случае наличия всех товаров из вашего заказа, он будет доставлен в течении <br/>
+                        2 часов.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">Из каких стран доставляются фрукты?</div>
+                <div class="accordion-text">
+                    <p>
+                        jQuery UI Accordion отображает складные панели для представления информации в
+                        ограниченном пространстве. Нажмите на заголовки, чтобы развернуть / свернуть
+                        контент. Базовая разметка HTML представляет собой серию заголовков H3 и div с
+                        содержимым.
+                    </p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    Можно ли вернуть заказ, если качество мне не понравилось?
+                </div>
+                <div class="accordion-text">
+                    <p>
+                        jQuery UI Accordion отображает складные панели для представления информации в
+                        ограниченном пространстве. Нажмите на заголовки, чтобы развернуть / свернуть
+                        контент. Базовая разметка HTML представляет собой серию заголовков H3 и div с
+                        содержимым.
+                    </p>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">Сколько стоит доставка?</div>
+                <div class="accordion-text">
+                    <p>
+                        jQuery UI Accordion отображает складные панели для представления информации в
+                        ограниченном пространстве. Нажмите на заголовки, чтобы развернуть / свернуть
+                        контент. Базовая разметка HTML представляет собой серию заголовков H3 и div с
+                        содержимым.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__rights">
+                <div class="footer__logo">
+                    <img src="images/footer-logo.png" alt="" class="logo"/>
+                </div>
+                <p class="rights">Все права защищены, 2023</p>
+            </div>
+            <div class="social__links">
+                <a href="#" class="social__link">
+                    <img class="social__img" src="images/facebook-logo.png" alt=""/>
+                </a>
+                <a href="#" class="social__link">
+                    <img class="social__img" src="images/instagram.png" alt=""/>
+                </a>
+                <a href="#" class="social__link">
+                    <img class="social__img" src="images/vk-social-logotype.png" alt=""/>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<footer class="footer__mobile">
+    <div class="container">
+        <div class="footer__content">
+            <div class="footer__rights">
+                <div class="footer__logo">
+                    <img src="images/footer-logo.png" alt="" class="logo"/>
+                </div>
+            </div>
+            <div class="social__links">
+                <a href="#" class="social__link">
+                    <img class="social__img" src="images/facebook-logo.png" alt=""/>
+                </a>
+                <a href="#" class="social__link">
+                    <img class="social__img" src="images/instagram.png" alt=""/>
+                </a>
+                <a href="#" class="social__link">
+                    <img class="social__img" src="images/vk-social-logotype.png" alt=""/>
+                </a>
+            </div>
+            <p class="rights">Все права защищены, 2023</p>
+        </div>
+    </div>
+</footer>
+
+<div class="up">
+    <button onclick="topFunction()" id="myBtn"></button>
+</div>
+
+<form id="form" action="/">
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <div class="zakaz__done">Спасибо, мы свяжемся с вами в ближайшее время!</div>
+            <div class="modal__content-btn">
+                <img src="images/close.png" alt="">
+            </div>
+            <input id="name" class="name" type="text" placeholder="Введите ваше имя"/>
+            <span class="error__input-name">Введите имя</span>
+            <input id="phone" class="phone" type="text" placeholder="Введите ваш телефон"/>
+            <span class="error__input-phone">Введите телефон</span>
+            <button class="modal__content-button" id="submit" type="submit">Отправить заявку</button>
+            <button class="modal__content-close">ОК</button>
+    </div>
+    </div>
+</form>
+
+<script src="js/jquery-3.7.0.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
